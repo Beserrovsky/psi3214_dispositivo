@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "netlist": "C:\\Users\\Beserra\\Documents\\psi3214_dispositivo\\psi3214_dispositivo.net",
+  "board": {
+    "layout": "full"
+  },
+  "terminals": {
+    "GND": "0"
+  },
+  "placements": [
+    {
+      "ref": "C2",
+      "type_id": "C",
+      "flipped": false,
+      "pins": [
+        [
+          1,
+          [
+            "tie",
+            8,
+            "c"
+          ]
+        ],
+        [
+          2,
+          [
+            "tie",
+            12,
+            "c"
+          ]
+        ]
+      ]
+    },
+    {
+      "ref": "U1",
+      "type_id": "RC4558",
+      "flipped": false,
+      "pins": [
+        [
+          1,
+          [
+            "tie",
+            19,
+            "f"
+          ]
+        ],
+        [
+          2,
+          [
+            "tie",
+            20,
+            "f"
+          ]
+        ],
+        [
+          3,
+          [
+            "tie",
+            21,
+            "f"
+          ]
+        ],
+        [
+          4,
+          [
+            "tie",
+            22,
+            "f"
+          ]
+        ],
+        [
+          5,
+          [
+            "tie",
+            22,
+            "e"
+          ]
+        ],
+        [
+          6,
+          [
+            "tie",
+            21,
+            "e"
+          ]
+        ],
+        [
+          7,
+          [
+            "tie",
+            20,
+            "e"
+          ]
+        ],
+        [
+          8,
+          [
+            "tie",
+            19,
+            "e"
+          ]
+        ]
+      ]
+    }
+  ],
+  "wires": [],
+  "probes": {
+    "FG_GND": {
+      "hole": null,
+      "net": "0",
+      "offset": [
+        0,
+        0
+      ]
+    },
+    "SCOPE_GND": {
+      "hole": null,
+      "net": "0",
+      "offset": [
+        0,
+        0
+      ]
+    }
+  }
+}
