@@ -655,7 +655,7 @@
         "version": 0
       },
       "model_mode": 4,
-      "workbook_filename": ""
+      "workbook_filename": "psi3214_dispositivo.wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
@@ -669,13 +669,17 @@
         "uuid": "e7a7a46e-b638-4507-95ec-4075ca25ebec"
       }
     ],
-    "used_designators": "R3-9,R11,R13,#GND1,#PWR1-8,#PWR10-17,C2-3,U1-3,V1-3",
+    "used_designators": "R1,R3-20,#GND1-2,#PWR1-30,C2-5,U1-3,V1-6",
     "variants": []
   },
   "sheets": [
     [
       "e7a7a46e-b638-4507-95ec-4075ca25ebec",
       "psi3214_dispositivo"
+    ],
+    [
+      "cc40034b-d4be-4012-8ddc-51d49f894c2b",
+      "Nova-Folha"
     ]
   ],
   "text_variables": {},
