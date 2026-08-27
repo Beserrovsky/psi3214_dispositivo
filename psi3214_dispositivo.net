@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\Beserra\\Documents\\psi3214_dispositivo\\psi3214_dispositivo.kicad_sch")
-		(date "2026-08-21T11:11:55")
+		(date "2026-08-27T12:27:03")
 		(tool "Eeschema 10.0.5")
 		(sheet
 			(number "1")
@@ -52,17 +52,65 @@
 				)
 			)
 		)
+		(sheet
+			(number "2")
+			(name "/Nova-Folha/")
+			(tstamps "/cc40034b-d4be-4012-8ddc-51d49f894c2b/")
+			(title_block
+				(title "Teste")
+				(company)
+				(rev)
+				(date)
+				(source "untitled.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
 	)
 	(components
 		(comp
 			(ref "C2")
 			(value "1u")
+			(footprint "Capacitor_SMD:C_1206_3216Metric")
 			(datasheet "https://www.reddit.com/r/AskElectronics/comments/nobj2h/when_should_you_use_a_decoupling_capacitor_and/")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric")
 				(field
 					(name "Datasheet") "https://www.reddit.com/r/AskElectronics/comments/nobj2h/when_should_you_use_a_decoupling_capacitor_and/")
 				(field
@@ -111,11 +159,11 @@
 		(comp
 			(ref "C3")
 			(value "10n")
+			(footprint "Capacitor_SMD:C_1206_3216Metric")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -163,23 +211,23 @@
 			)
 		)
 		(comp
-			(ref "R3")
-			(value "50")
-			(description "Resistor")
+			(ref "J1")
+			(value "Screw_Terminal_01x02")
+			(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal")
+			(description "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "Resistor")
+					(name "Description") "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
 			)
 			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
+				(lib "Connector")
+				(part "Screw_Terminal_01x02")
+				(description "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
 			)
 			(property
 				(name "Sheetname")
@@ -191,17 +239,17 @@
 			)
 			(property
 				(name "ki_keywords")
-				(value "R res resistor")
+				(value "screw terminal")
 			)
 			(property
 				(name "ki_fp_filters")
-				(value "R_*")
+				(value "TerminalBlock*:*")
 			)
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "8521f50b-ffa1-4eaf-a961-5d3994a37f4c")
+			(tstamps "2a57a762-bdc2-441b-8690-18ce15fb52ee")
 			(units
 				(unit
 					(name "A")
@@ -217,13 +265,70 @@
 			)
 		)
 		(comp
+			(ref "J2")
+			(value "Screw_Terminal_01x03")
+			(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal")
+			(description "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "Footprint") "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Screw_Terminal_01x03")
+				(description "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "Sheetname")
+				(value "psi3214_dispositivo")
+			)
+			(property
+				(name "Sheetfile")
+				(value "psi3214_dispositivo.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "screw terminal")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TerminalBlock*:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "95d4b3a0-8682-4f14-bf2e-f050d9197af6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "R4")
 			(value "10k")
+			(footprint "Resistor_SMD:R_1206_3216Metric")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -273,11 +378,11 @@
 		(comp
 			(ref "R5")
 			(value "1k")
+			(footprint "Resistor_SMD:R_1206_3216Metric")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -327,11 +432,11 @@
 		(comp
 			(ref "R6")
 			(value "220")
+			(footprint "Resistor_SMD:R_1206_3216Metric")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -381,11 +486,11 @@
 		(comp
 			(ref "R7")
 			(value "63.6k")
+			(footprint "Resistor_SMD:R_1206_3216Metric")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -435,11 +540,11 @@
 		(comp
 			(ref "R8")
 			(value "2030")
+			(footprint "Resistor_SMD:R_1206_3216Metric")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -489,11 +594,11 @@
 		(comp
 			(ref "R9")
 			(value "1k")
+			(footprint "Resistor_SMD:R_1206_3216Metric")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -543,11 +648,11 @@
 		(comp
 			(ref "R11")
 			(value "22k")
+			(footprint "Resistor_SMD:R_1206_3216Metric")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -597,11 +702,11 @@
 		(comp
 			(ref "R13")
 			(value "10k")
+			(footprint "Resistor_SMD:R_1206_3216Metric")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -651,7 +756,8 @@
 		(comp
 			(ref "U1")
 			(value "TL072_sim")
-			(datasheet "http://www.ti.com/lit/ds/symlink/tl071.pdf")
+			(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+			(datasheet "https://www.mamuteeletronica.com.br/circuito-integrado-smd-tl072cdr-6488")
 			(description "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8")
 			(fields
 				(field
@@ -663,10 +769,9 @@
 				(field
 					(name "Sim.Pins") "1=1out 2=1in- 3=1in+ 4=vcc- 5=2in+ 6=2in- 7=2out 8=vcc+")
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
 				(field
-					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/tl071.pdf")
+					(name "Datasheet") "https://www.mamuteeletronica.com.br/circuito-integrado-smd-tl072cdr-6488")
 				(field
 					(name "Description") "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8")
 			)
@@ -756,214 +861,83 @@
 				)
 			)
 		)
-		(comp
-			(ref "V1")
-			(value "1 ac=1")
-			(datasheet "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for")
-			(description "Voltage source, DC")
-			(fields
-				(field
-					(name "Sim.Pins") "1=+ 2=-")
-				(field
-					(name "Sim.Type") "DC")
-				(field
-					(name "Sim.Device") "V")
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet") "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for")
-				(field
-					(name "Description") "Voltage source, DC")
-			)
-			(libsource
-				(lib "Simulation_SPICE")
-				(part "VDC")
-				(description "Voltage source, DC")
-			)
-			(property
-				(name "Sim.Pins")
-				(value "1=+ 2=-")
-			)
-			(property
-				(name "Sim.Type")
-				(value "DC")
-			)
-			(property
-				(name "Sim.Device")
-				(value "V")
-			)
-			(property
-				(name "Sheetname")
-				(value "psi3214_dispositivo")
-			)
-			(property
-				(name "Sheetfile")
-				(value "psi3214_dispositivo.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "simulation")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "a91b5db3-ed99-4b56-b62d-57471f59a729")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "V2")
-			(value "9")
-			(datasheet "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for")
-			(description "Voltage source, DC")
-			(fields
-				(field
-					(name "Sim.Pins") "1=+ 2=-")
-				(field
-					(name "Sim.Type") "DC")
-				(field
-					(name "Sim.Device") "V")
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet") "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for")
-				(field
-					(name "Description") "Voltage source, DC")
-			)
-			(libsource
-				(lib "Simulation_SPICE")
-				(part "VDC")
-				(description "Voltage source, DC")
-			)
-			(property
-				(name "Sim.Pins")
-				(value "1=+ 2=-")
-			)
-			(property
-				(name "Sim.Type")
-				(value "DC")
-			)
-			(property
-				(name "Sim.Device")
-				(value "V")
-			)
-			(property
-				(name "Sheetname")
-				(value "psi3214_dispositivo")
-			)
-			(property
-				(name "Sheetfile")
-				(value "psi3214_dispositivo.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "simulation")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "7f0b4a68-90d4-4941-a3c7-bc57c982500a")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "V3")
-			(value "9")
-			(datasheet "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for")
-			(description "Voltage source, DC")
-			(fields
-				(field
-					(name "Sim.Pins") "1=+ 2=-")
-				(field
-					(name "Sim.Type") "DC")
-				(field
-					(name "Sim.Device") "V")
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet") "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for")
-				(field
-					(name "Description") "Voltage source, DC")
-			)
-			(libsource
-				(lib "Simulation_SPICE")
-				(part "VDC")
-				(description "Voltage source, DC")
-			)
-			(property
-				(name "Sim.Pins")
-				(value "1=+ 2=-")
-			)
-			(property
-				(name "Sim.Type")
-				(value "DC")
-			)
-			(property
-				(name "Sim.Device")
-				(value "V")
-			)
-			(property
-				(name "Sheetname")
-				(value "psi3214_dispositivo")
-			)
-			(property
-				(name "Sheetfile")
-				(value "psi3214_dispositivo.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "simulation")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "9efcda2f-eddf-43b2-b8e9-076ea1862ea4")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
 	)
 	(groups)
 	(variants)
 	(libparts
+		(libpart
+			(lib "Connector")
+			(part "Screw_Terminal_01x02")
+			(description "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "TerminalBlock*:*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Screw_Terminal_01x02")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "Screw_Terminal_01x03")
+			(description "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "TerminalBlock*:*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Screw_Terminal_01x03")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+			)
+		)
 		(libpart
 			(lib "Device")
 			(part "C")
@@ -1154,6 +1128,10 @@
 	)
 	(libraries
 		(library
+			(logical "Connector")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector.kicad_sym")
+		)
+		(library
 			(logical "Device")
 			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
 		)
@@ -1172,15 +1150,16 @@
 			(name "+9V")
 			(class "Default")
 			(node
+				(ref "J2")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
 				(ref "U1")
 				(pin "8")
 				(pinfunction "V+_8")
 				(pintype "power_in")
-			)
-			(node
-				(ref "V2")
-				(pin "1")
-				(pintype "passive")
 			)
 		)
 		(net
@@ -1188,15 +1167,16 @@
 			(name "-9V")
 			(class "Default")
 			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
 				(ref "U1")
 				(pin "4")
 				(pinfunction "V-_4")
 				(pintype "power_in")
-			)
-			(node
-				(ref "V3")
-				(pin "2")
-				(pintype "passive")
 			)
 		)
 		(net
@@ -1209,8 +1189,9 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R3")
-				(pin "1")
+				(ref "J1")
+				(pin "2")
+				(pinfunction "Pin_2_2")
 				(pintype "passive")
 			)
 		)
@@ -1311,6 +1292,18 @@
 			(name "GND")
 			(class "Default")
 			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
 				(ref "R13")
 				(pin "2")
 				(pintype "passive")
@@ -1332,36 +1325,6 @@
 			)
 			(node
 				(ref "R9")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "V1")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "V2")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "V3")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "10")
-			(name "Net-(R3-Pad2)")
-			(class "Default")
-			(node
-				(ref "R3")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "V1")
 				(pin "1")
 				(pintype "passive")
 			)

@@ -5,14 +5,14 @@
     "layout": "full"
   },
   "terminals": {
-    "GND": "0",
+    "GND": "GND",
     "V1": "/entrada"
   },
   "placements": [
     {
       "ref": "C2",
       "type_id": "C",
-      "flipped": false,
+      "flipped": 0,
       "pins": [
         [
           1,
@@ -102,9 +102,319 @@
           ]
         ]
       ]
+    },
+    {
+      "ref": "R4",
+      "type_id": "R",
+      "flipped": false,
+      "pins": [
+        [
+          1,
+          [
+            "rail",
+            "bot_minus",
+            3
+          ]
+        ],
+        [
+          2,
+          [
+            "tie",
+            4,
+            "h"
+          ]
+        ]
+      ]
+    },
+    {
+      "ref": "R5",
+      "type_id": "R",
+      "flipped": false,
+      "pins": [
+        [
+          1,
+          [
+            "rail",
+            "bot_minus",
+            12
+          ]
+        ],
+        [
+          2,
+          [
+            "tie",
+            15,
+            "i"
+          ]
+        ]
+      ]
+    },
+    {
+      "ref": "R6",
+      "type_id": "R",
+      "flipped": false,
+      "pins": [
+        [
+          1,
+          [
+            "tie",
+            15,
+            "h"
+          ]
+        ],
+        [
+          2,
+          [
+            "tie",
+            14,
+            "h"
+          ]
+        ]
+      ]
+    },
+    {
+      "ref": "C3",
+      "type_id": "C",
+      "flipped": false,
+      "pins": [
+        [
+          1,
+          [
+            "tie",
+            21,
+            "c"
+          ]
+        ],
+        [
+          2,
+          [
+            "tie",
+            24,
+            "c"
+          ]
+        ]
+      ]
+    },
+    {
+      "ref": "R7",
+      "type_id": "R",
+      "flipped": false,
+      "pins": [
+        [
+          1,
+          [
+            "tie",
+            21,
+            "e"
+          ]
+        ],
+        [
+          2,
+          [
+            "tie",
+            24,
+            "e"
+          ]
+        ]
+      ]
+    },
+    {
+      "ref": "R8",
+      "type_id": "R",
+      "flipped": false,
+      "pins": [
+        [
+          1,
+          [
+            "tie",
+            17,
+            "a"
+          ]
+        ],
+        [
+          2,
+          [
+            "rail",
+            "top_minus",
+            14
+          ]
+        ]
+      ]
+    },
+    {
+      "ref": "R11",
+      "type_id": "R",
+      "flipped": false,
+      "pins": [
+        [
+          1,
+          [
+            "tie",
+            15,
+            "c"
+          ]
+        ],
+        [
+          2,
+          [
+            "tie",
+            16,
+            "c"
+          ]
+        ]
+      ]
+    },
+    {
+      "ref": "R9",
+      "type_id": "R",
+      "flipped": false,
+      "pins": [
+        [
+          1,
+          [
+            "tie",
+            16,
+            "a"
+          ]
+        ],
+        [
+          2,
+          [
+            "rail",
+            "top_minus",
+            13
+          ]
+        ]
+      ]
+    },
+    {
+      "ref": "R13",
+      "type_id": "R",
+      "flipped": false,
+      "pins": [
+        [
+          1,
+          [
+            "tie",
+            15,
+            "a"
+          ]
+        ],
+        [
+          2,
+          [
+            "rail",
+            "top_minus",
+            12
+          ]
+        ]
+      ]
     }
   ],
-  "wires": [],
+  "wires": [
+    {
+      "h1": [
+        "tie",
+        4,
+        "d"
+      ],
+      "h2": [
+        "terminal",
+        "V1"
+      ],
+      "color": "#e8c020"
+    },
+    {
+      "h1": [
+        "tie",
+        16,
+        "g"
+      ],
+      "h2": [
+        "tie",
+        4,
+        "g"
+      ],
+      "color": "#991111"
+    },
+    {
+      "h1": [
+        "tie",
+        14,
+        "g"
+      ],
+      "h2": [
+        "tie",
+        21,
+        "d"
+      ],
+      "color": "#1133aa"
+    },
+    {
+      "h1": [
+        "tie",
+        24,
+        "b"
+      ],
+      "h2": [
+        "tie",
+        17,
+        "b"
+      ],
+      "color": "#20c040"
+    },
+    {
+      "h1": [
+        "rail",
+        "bot_minus",
+        46
+      ],
+      "h2": [
+        "rail",
+        "top_minus",
+        46
+      ],
+      "color": "#e08020"
+    },
+    {
+      "h1": [
+        "tie",
+        17,
+        "j"
+      ],
+      "h2": [
+        "rail",
+        "bot_plus",
+        14
+      ],
+      "color": "#c020c0"
+    },
+    {
+      "h1": [
+        "tie",
+        14,
+        "a"
+      ],
+      "h2": [
+        "rail",
+        "top_plus",
+        11
+      ],
+      "color": "#20c0c0"
+    },
+    {
+      "h1": [
+        "rail",
+        "top_minus",
+        1
+      ],
+      "h2": [
+        "terminal",
+        "GND"
+      ],
+      "color": "#808080"
+    }
+  ],
   "probes": {
     "FG_GND": {
       "hole": null,
@@ -140,7 +450,7 @@
         "bot_minus",
         50
       ],
-      "net": "0",
+      "net": "GND",
       "offset": [
         0,
         0
@@ -152,7 +462,7 @@
         "bot_minus",
         50
       ],
-      "net": "0",
+      "net": "GND",
       "offset": [
         0,
         0
