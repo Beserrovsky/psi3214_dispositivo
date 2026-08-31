@@ -146,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.3,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -211,7 +211,7 @@
       ],
       "track_widths": [
         0.0,
-        0.6
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -542,7 +542,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "./",
+      "plot": "Gerber_Rodolfo/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -729,7 +729,7 @@
         "uuid": "e7a7a46e-b638-4507-95ec-4075ca25ebec"
       }
     ],
-    "used_designators": "J1-2,R1,R3-20,#GND1-2,#PWR1-30,C2-5,U1-3,V1-6",
+    "used_designators": "J1-6,R1,R3-20,#GND1-2,#PWR1-30,C2-5,U1-3,V1-6",
     "variants": []
   },
   "sheets": [
