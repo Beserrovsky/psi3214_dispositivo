@@ -2205,6 +2205,16 @@
 		)
 		(uuid "1b5d74b8-c170-4451-b505-50c6a5ac536c")
 	)
+	(text "Falta Potenciometro"
+		(exclude_from_sim no)
+		(at 254.762 25.908 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1bc0f969-119d-4ae0-8d88-c8ed6390e6c9")
+	)
 	(text "AmpOp não inversor"
 		(exclude_from_sim no)
 		(at 229.108 93.472 0)

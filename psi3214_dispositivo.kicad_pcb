@@ -124,7 +124,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "Gerber_Rodolfo/")
+			(outputdirectory "Gerber_Rodolfo_v2/")
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric"
