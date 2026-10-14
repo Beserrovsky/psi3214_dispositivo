@@ -106,7 +106,7 @@
     {
       "ref": "R4",
       "type_id": "R",
-      "flipped": false,
+      "flipped": 0,
       "pins": [
         [
           1,
@@ -129,7 +129,7 @@
     {
       "ref": "R5",
       "type_id": "R",
-      "flipped": false,
+      "flipped": 0,
       "pins": [
         [
           1,
@@ -152,7 +152,7 @@
     {
       "ref": "R6",
       "type_id": "R",
-      "flipped": false,
+      "flipped": 0,
       "pins": [
         [
           1,
@@ -175,7 +175,7 @@
     {
       "ref": "C3",
       "type_id": "C",
-      "flipped": false,
+      "flipped": 0,
       "pins": [
         [
           1,
@@ -198,7 +198,7 @@
     {
       "ref": "R7",
       "type_id": "R",
-      "flipped": false,
+      "flipped": 0,
       "pins": [
         [
           1,
@@ -221,13 +221,13 @@
     {
       "ref": "R8",
       "type_id": "R",
-      "flipped": false,
+      "flipped": 0,
       "pins": [
         [
           1,
           [
             "tie",
-            17,
+            19,
             "a"
           ]
         ],
@@ -244,7 +244,7 @@
     {
       "ref": "R11",
       "type_id": "R",
-      "flipped": false,
+      "flipped": 0,
       "pins": [
         [
           1,
@@ -267,7 +267,7 @@
     {
       "ref": "R9",
       "type_id": "R",
-      "flipped": false,
+      "flipped": 0,
       "pins": [
         [
           1,
@@ -290,7 +290,7 @@
     {
       "ref": "R13",
       "type_id": "R",
-      "flipped": false,
+      "flipped": 0,
       "pins": [
         [
           1,
@@ -306,6 +306,75 @@
             "rail",
             "top_minus",
             12
+          ]
+        ]
+      ]
+    },
+    {
+      "ref": "R10",
+      "type_id": "R",
+      "flipped": false,
+      "pins": [
+        [
+          1,
+          [
+            "tie",
+            21,
+            "d"
+          ]
+        ],
+        [
+          2,
+          [
+            "tie",
+            24,
+            "d"
+          ]
+        ]
+      ]
+    },
+    {
+      "ref": "R12",
+      "type_id": "R",
+      "flipped": false,
+      "pins": [
+        [
+          1,
+          [
+            "tie",
+            17,
+            "a"
+          ]
+        ],
+        [
+          2,
+          [
+            "tie",
+            19,
+            "a"
+          ]
+        ]
+      ]
+    },
+    {
+      "ref": "R14",
+      "type_id": "R",
+      "flipped": false,
+      "pins": [
+        [
+          1,
+          [
+            "tie",
+            17,
+            "c"
+          ]
+        ],
+        [
+          2,
+          [
+            "tie",
+            19,
+            "c"
           ]
         ]
       ]
