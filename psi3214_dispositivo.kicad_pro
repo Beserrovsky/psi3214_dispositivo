@@ -729,7 +729,7 @@
         "uuid": "e7a7a46e-b638-4507-95ec-4075ca25ebec"
       }
     ],
-    "used_designators": "J1-6,R1-20,#GND1-2,#PWR1-30,C2-5,U1-3,V1-6,H1-4",
+    "used_designators": "J1-7,#GND1-2,R1-20,#PWR1-30,C2-5,U1-3,V1-6,H1-4,P1,BT1-2,D1",
     "variants": []
   },
   "sheets": [
@@ -738,8 +738,12 @@
       "psi3214_dispositivo"
     ],
     [
-      "cc40034b-d4be-4012-8ddc-51d49f894c2b",
-      "Nova-Folha"
+      "dd6233a5-7364-4a71-a2a0-fd5637398624",
+      "Analogico"
+    ],
+    [
+      "fc13d119-8916-4798-8a28-b32484ec527b",
+      "Conectores e Outros"
     ]
   ],
   "text_variables": {},
