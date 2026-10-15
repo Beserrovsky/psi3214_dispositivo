@@ -22,8 +22,37 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(228, 26, 28)",
-          "signal": "V(/saida) (ganho)",
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(saida) (ganho)",
+          "trace_type": 521
+        },
+        {
+          "color": "rgb(255, 127, 0)",
+          "signal": "V(saida_amp1) (ganho)",
+          "trace_type": 521
+        },
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(saida_cap) (ganho)",
+          "trace_type": 521
+        },
+        {
+          "color": "rgb(152, 78, 163)",
+          "cursor1": {
+            "position": 19300.060248880254,
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
+          },
+          "cursor2": {
+            "position": 6628.553061498083,
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
+          },
+          "cursorD": {
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
+          },
+          "signal": "V(saida_filtro) (ganho)",
           "trace_type": 521
         }
       ]
