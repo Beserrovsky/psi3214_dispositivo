@@ -130,7 +130,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
 		(layer "F.Cu")
 		(uuid "10a59b61-571b-46c0-9760-996503c79a46")
-		(at 228.775 100.475)
+		(at 148.5 72.5)
 		(descr "SMD rectangular pad as test Point, square 1.5mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "J10"
@@ -455,7 +455,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
 		(layer "F.Cu")
 		(uuid "1af5d31e-a06d-4db0-ae11-e557117b2299")
-		(at 228.775 96.925)
+		(at 139.5 103)
 		(descr "SMD rectangular pad as test Point, square 1.5mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "J9"
@@ -622,7 +622,7 @@
 	(footprint "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
 		(layer "F.Cu")
 		(uuid "260cba87-4e1d-4dfb-b086-0cf95cd70fc7")
-		(at 164 72 180)
+		(at 164 72.5 180)
 		(descr "terminal block MaiXu MX126-5.0-03P, 3 pins, pitch 5mm, size 15.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf")
 		(tags "THT terminal block MaiXu MX126-5.0-03P pitch 5mm size 15.5x7.8mm drill 1.3mm pad 2.8mm")
 		(property "Reference" "J4"
@@ -2459,7 +2459,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
 		(layer "F.Cu")
 		(uuid "82cfb344-2393-483d-ba9e-8af89fd08e6e")
-		(at 228.775 89.825)
+		(at 164.5 107.5)
 		(descr "SMD rectangular pad as test Point, square 1.5mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "J7"
@@ -3332,7 +3332,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
 		(layer "F.Cu")
 		(uuid "9a90ef6a-d6f4-4764-ac38-4695bc518cc2")
-		(at 228.775 86.275)
+		(at 141 125.5)
 		(descr "SMD rectangular pad as test Point, square 1.5mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "J6"
@@ -6349,7 +6349,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
 		(layer "F.Cu")
 		(uuid "fcddcd2c-10fc-4cdd-8d15-5ccb4e05e41f")
-		(at 228.775 93.375)
+		(at 153 106.5)
 		(descr "SMD rectangular pad as test Point, square 1.5mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "J8"
@@ -7135,7 +7135,7 @@
 		(descr "https://eu.mouser.com/datasheet/2/209/EPD-200766-1274481.pdf")
 		(tags "9V Battery Holder")
 		(property "Reference" "BT1"
-			(at -24.13 24.13 90)
+			(at 1.575 22.975 90)
 			(layer "B.SilkS")
 			(uuid "96ca115a-41e6-4feb-9869-741c74e16e2f")
 			(effects
@@ -7658,7 +7658,6 @@
 			(type default)
 		)
 		(fill no)
-		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "30602aa8-f0fd-4eee-ba3e-7112966bc675")
 	)
@@ -7677,6 +7676,14 @@
 		(layer "F.Cu")
 		(net "entrada")
 		(uuid "28665a4b-2f71-4d4a-b23b-081de4d22936")
+	)
+	(segment
+		(start 144.94 76.06)
+		(end 144.94 77)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "entrada")
+		(uuid "7ce0651a-b5e9-44e3-af9e-c092e39a038c")
 	)
 	(segment
 		(start 133.75625 77)
@@ -7701,6 +7708,14 @@
 		(layer "F.Cu")
 		(net "entrada")
 		(uuid "ec802db6-a43e-45ef-8981-a6d0582af451")
+	)
+	(segment
+		(start 148.5 72.5)
+		(end 144.94 76.06)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "entrada")
+		(uuid "f11361a6-9bf8-46db-8be3-6c20791cc3bb")
 	)
 	(segment
 		(start 158.742501 88)
@@ -8071,6 +8086,22 @@
 		(uuid "1b189990-e51f-4fcb-9f8b-95acd782b6b2")
 	)
 	(segment
+		(start 139.5 103)
+		(end 140.46 102.04)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "saida_cap")
+		(uuid "2e6dba89-d734-4a94-8e54-586f4f54c15c")
+	)
+	(segment
+		(start 140.46 102.04)
+		(end 143.025 102.04)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "saida_cap")
+		(uuid "4c517037-a234-4ff3-b9a9-4413149c0061")
+	)
+	(segment
 		(start 131.74375 81.9375)
 		(end 131.75625 81.95)
 		(width 0.5)
@@ -8319,8 +8350,16 @@
 		(uuid "2b0b8234-6164-466c-b652-52a971f39395")
 	)
 	(segment
+		(start 153 106.5)
+		(end 153 107.95)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "saida_amp1")
+		(uuid "68da019f-496d-4f7a-9836-2578b35249af")
+	)
+	(segment
 		(start 148.95 107.95)
-		(end 156.74375 107.95)
+		(end 153 107.95)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "saida_amp1")
@@ -8357,6 +8396,14 @@
 		(layer "F.Cu")
 		(net "saida_amp1")
 		(uuid "951aaebe-c3ef-44f2-a0cf-6d5fad2ed7f6")
+	)
+	(segment
+		(start 153 107.95)
+		(end 156.74375 107.95)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "saida_amp1")
+		(uuid "a6b51b07-e47e-46ca-9d67-4d778106f833")
 	)
 	(segment
 		(start 143.025 99.5)
@@ -8494,22 +8541,6 @@
 		(net "saida_filtro")
 		(uuid "f475e068-8222-4895-8638-4695fd161bc8")
 	)
-	(via
-		(at 156.74375 104.95)
-		(size 1.3)
-		(drill 1)
-		(layers "F.Cu" "B.Cu")
-		(net "saida_filtro")
-		(uuid "1c8acdb6-b4c1-4064-b114-e656a947514a")
-	)
-	(via
-		(at 148.5 103.405)
-		(size 1.3)
-		(drill 1)
-		(layers "F.Cu" "B.Cu")
-		(net "saida_filtro")
-		(uuid "9003614e-ef1e-4317-b11f-7afc45a6426e")
-	)
 	(segment
 		(start 164.603122 95.5)
 		(end 169 95.5)
@@ -8517,6 +8548,14 @@
 		(layer "F.Cu")
 		(net "saida")
 		(uuid "0e89c810-1dc7-4f9e-a738-c2a4464f995b")
+	)
+	(segment
+		(start 146 125.5375)
+		(end 145.9625 125.5375)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "saida")
+		(uuid "23ab9499-e442-4aa5-acb2-23bb9ec0fd14")
 	)
 	(segment
 		(start 147.975 100.77)
@@ -8541,6 +8580,22 @@
 		(layer "F.Cu")
 		(net "saida")
 		(uuid "5f0159af-4dce-48b4-8207-f406a1450f21")
+	)
+	(segment
+		(start 145.9625 125.5375)
+		(end 145.925 125.5)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "saida")
+		(uuid "65a77e2b-ee9d-4b9d-b164-918c24e1c4d1")
+	)
+	(segment
+		(start 145.925 125.5)
+		(end 141 125.5)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "saida")
+		(uuid "732a24c6-2ab2-4069-9636-0f0e0ec261e9")
 	)
 	(segment
 		(start 159.333122 100.77)
@@ -8879,18 +8934,17 @@
 	(group ""
 		(uuid "ac2f2e09-b3e8-4e61-b96e-b35aa3f0f485")
 		(members "14745f03-05dc-4cd0-89e9-776f34363ecf" "154efa24-01ee-48c5-b3e4-0f4ca531b3f0"
-			"1aee159e-6702-4bb1-bde7-9e6e1884ac13" "1c8acdb6-b4c1-4064-b114-e656a947514a"
-			"22fa1173-741b-4381-8e74-b86ff30d0945" "2b0b8234-6164-466c-b652-52a971f39395"
-			"2b41dde3-c84d-4543-9a96-1787f0b285c1" "2f28cfff-f9f9-43be-8797-b2e1f59ad7bc"
-			"343e6841-0d4a-4e79-a3b2-7967d0d20163" "3f3f7c97-fcaa-4079-a980-4427889126a4"
-			"480a5ed7-1af6-4619-90ff-798dfbfb77f7" "61958a5a-42b2-491c-b865-d1ced87ccc9f"
-			"8082b6f6-f100-4bf7-8dc4-07182a355fea" "8126957b-73c6-444a-be5d-9f791a7acc27"
-			"8d18a215-3aeb-4023-95dd-b77dcca60d59" "905a92f3-83ed-4ffa-8d1c-a3bbd837412f"
-			"951aaebe-c3ef-44f2-a0cf-6d5fad2ed7f6" "a73f8800-e95f-4d06-be44-a1240b0fc3cc"
-			"b6a62179-4b03-40ff-8bab-689c47c05c9e" "b8a28bca-1def-49ac-ad3c-ae58ddc642b4"
-			"bafb4bf0-64e9-47ca-8ece-63d6f56b0ff9" "c1de1c94-089c-41dd-a395-84eb7719ef45"
-			"ec63bb98-5a18-424b-b821-08472d7126e0" "f0c0485d-5035-4d05-96e7-1607e698c647"
-			"facedce3-9cf7-44b6-9869-26feb8a5123d"
+			"1aee159e-6702-4bb1-bde7-9e6e1884ac13" "22fa1173-741b-4381-8e74-b86ff30d0945"
+			"2b0b8234-6164-466c-b652-52a971f39395" "2b41dde3-c84d-4543-9a96-1787f0b285c1"
+			"2f28cfff-f9f9-43be-8797-b2e1f59ad7bc" "343e6841-0d4a-4e79-a3b2-7967d0d20163"
+			"3f3f7c97-fcaa-4079-a980-4427889126a4" "480a5ed7-1af6-4619-90ff-798dfbfb77f7"
+			"61958a5a-42b2-491c-b865-d1ced87ccc9f" "8082b6f6-f100-4bf7-8dc4-07182a355fea"
+			"8126957b-73c6-444a-be5d-9f791a7acc27" "8d18a215-3aeb-4023-95dd-b77dcca60d59"
+			"905a92f3-83ed-4ffa-8d1c-a3bbd837412f" "951aaebe-c3ef-44f2-a0cf-6d5fad2ed7f6"
+			"a73f8800-e95f-4d06-be44-a1240b0fc3cc" "b6a62179-4b03-40ff-8bab-689c47c05c9e"
+			"b8a28bca-1def-49ac-ad3c-ae58ddc642b4" "bafb4bf0-64e9-47ca-8ece-63d6f56b0ff9"
+			"c1de1c94-089c-41dd-a395-84eb7719ef45" "ec63bb98-5a18-424b-b821-08472d7126e0"
+			"f0c0485d-5035-4d05-96e7-1607e698c647" "facedce3-9cf7-44b6-9869-26feb8a5123d"
 		)
 	)
 	(group ""
@@ -8917,9 +8971,8 @@
 		(uuid "de4cb735-a229-4c68-b784-394226aa6afb")
 		(members "27194d6a-d355-4282-ae18-7fcf0f1794ac" "2b4fa705-d409-477f-9120-7bdad3f1d6c2"
 			"46ea5ecc-d7cb-4b33-b120-8154e6843f22" "50b699a6-7df6-46d9-b706-60c5ef60eb3c"
-			"7c33bc94-0567-4c22-8bc7-edf92cc4cd55" "9003614e-ef1e-4317-b11f-7afc45a6426e"
-			"a28c9a9a-03d4-4565-8e0c-1bf621f61360" "c4dd5917-c9f5-4bf1-9a05-7b9d8135a8d8"
-			"dffe39d6-6ec0-4260-8ec6-5e965079c3a3"
+			"7c33bc94-0567-4c22-8bc7-edf92cc4cd55" "a28c9a9a-03d4-4565-8e0c-1bf621f61360"
+			"c4dd5917-c9f5-4bf1-9a05-7b9d8135a8d8" "dffe39d6-6ec0-4260-8ec6-5e965079c3a3"
 		)
 	)
 	(embedded_fonts no)
