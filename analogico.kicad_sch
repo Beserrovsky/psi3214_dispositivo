@@ -3778,7 +3778,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "r=10k pos=0.4"
+		(property "Sim.Params" "r=10k pos=1"
 			(at 113.03 88.9 90)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -4074,7 +4074,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "r=10k pos=0.4"
+		(property "Sim.Params" "r=10k pos=0.25"
 			(at 223.52 90.17 90)
 			(show_name yes)
 			(do_not_autoplace no)

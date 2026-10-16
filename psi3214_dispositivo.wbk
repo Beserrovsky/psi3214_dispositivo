@@ -5,7 +5,7 @@
     {
       "analysis": "AC",
       "commands": [
-        ".ac dec 101 1 20k",
+        ".ac dec 101 20 20k",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -23,6 +23,20 @@
       "traces": [
         {
           "color": "rgb(55, 126, 184)",
+          "cursor1": {
+            "position": 88.99952645531532,
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
+          },
+          "cursor2": {
+            "position": 273.3597822502452,
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
+          },
+          "cursorD": {
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
+          },
           "signal": "V(saida) (ganho)",
           "trace_type": 521
         },
@@ -38,20 +52,6 @@
         },
         {
           "color": "rgb(152, 78, 163)",
-          "cursor1": {
-            "position": 19300.060248880254,
-            "x_format": "3~Hz",
-            "y_format": "3~dB"
-          },
-          "cursor2": {
-            "position": 6628.553061498083,
-            "x_format": "3~Hz",
-            "y_format": "3~dB"
-          },
-          "cursorD": {
-            "x_format": "3~Hz",
-            "y_format": "3~dB"
-          },
           "signal": "V(saida_filtro) (ganho)",
           "trace_type": 521
         }
